@@ -2,7 +2,7 @@ const { Command } = require('discord.js-commando');
 
 const { DEFAULT_VOLUME } = process.env;
 
-module.exports = class DefaultVolumeCommand extends Command {
+module.exports = class DefaultVolumeCommand extends Command {jj
 	constructor(client) {
 		super(client, {
 			name: 'default-volume',
